@@ -1,0 +1,37 @@
+1) посмотреть где - pwd
+2) создать папку - mkdir foldername
+3) зайти в папку - cd foldername
+4) создать 3 папки - mkdir folder1 folder2 folder3
+5) зайти в любую папку - cd folder3
+6) создать 5 файлов (3 txt и 2 json) - touch Father.txt Mother.txt Brother.txt Sister.json Grandfather.json
+7) создать 3 папки - mkdir folder4 folder5 folder6
+8) вывести список содержимого папки- ls -la
+9) + открыть любой txt-файл - vim filename
+10) + написать в файл любой текст - i (something is typed)
+11) + сохранить и выйти - esc:wq
+12) выйти из папки на уровень выше - cd ..
+13) переместить любые 2 созданные файла в любую другую созданную папку - mv folder3/Brother.txt folder3/Sister.json folder2
+14) скопировать любые 2 созданные файла в любую другую папку - cp folder3/Father.txt folder3/Mother.txt folder1
+15) найти файл по имени - find . -filename
+16) просмотреть содержимое в реальном времени - cat filename или grep otion template filename
+17) вывести несколько первых строк из текстового файла - head -X filename
+18) вывести несколько последних строк из тестового файла - tail -X fukename
+19) просмотреть содержимое длинного файла (команда less) - less filename
+20) вывести дату и время - date
+21) создать SSH-ключ - ssh-keygen -t rsa -C “username”
+22) синхронизировать локальный репозиторий с удалённым - git fetch, git pull
+23) посмотреть изменения, сделанные определённым автором - git log --author authorname
+24) посмотреть содержание определённого коммита - git show hashcommit
+25) узнать информацию об авторе строки и его внесённых изменениях - git blame filename
+26) добавить строку в целевой файл - echo "Add Line" >> filename
+27) создать ветку - git branch branchname
+28) переключиться на другую ветку - git checkout branchname
+29) склонировать репозиторий - git clone repo_name
+30) создать ветку - git checkout -b branchname
+31) перейти в другую ветку - git chekout brancname
+32) посмотреть все ветки и узнать в какой ветке мы находимся - git branch
+33) смержить ветки - git merge branchname
+34) git blame filename authorname - узнать информацию об авторе строки
+35) git blame filename | grep linename
+36) cat filename - посмотреть содержимое файла
+37) git checkout filename - откатить измениния в файле
