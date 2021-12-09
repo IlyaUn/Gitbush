@@ -1,0 +1,10 @@
+{
+         "name":"Polina",
+	 "surname":"Unukovich",
+	 "family":{"brother":{"Name":"Ilya",
+	                    "Age":25,
+	                    "female":true,
+	                    "passions":["sport", "bike",
+		            {"boyfriend":"Dima"}]}
+	 }
+}
