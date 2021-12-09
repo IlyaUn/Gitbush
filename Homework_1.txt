@@ -31,7 +31,7 @@
 31) перейти в другую ветку - git chekout brancname
 32) посмотреть все ветки и узнать в какой ветке мы находимся - git branch
 33) смержить ветки - git merge branchname
-34) git blame filename authorname - узнать информацию об авторе строки
+34) узнать информацию об авторе строки - git blame filename authorname 
 35) git blame filename | grep linename
-36) cat filename - посмотреть содержимое файла
-37) git checkout filename - откатить измениния в файле
+36) посмотреть содержимое файлаcat - filename 
+37) откатить измениния в файле - git checkout filename
